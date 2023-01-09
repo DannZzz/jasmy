@@ -1,0 +1,15 @@
+@import '../../style/mixins.scss';
+
+.logo-text {
+  @include besan-font;
+  @include no-select;
+  background-size: 200px;
+  background-repeat: repeat;
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  &.pointer {
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,19 @@
+.navigator {
+  width: 100%;
+  padding: 20px;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .nav-item {
+    cursor: pointer;
+    &:hover {
+      opacity: 0.9;
+    }
+  }
+
+  .logo {
+    flex: 1;
+  }
+}

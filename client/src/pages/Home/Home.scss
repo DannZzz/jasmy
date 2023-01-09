@@ -1,0 +1,36 @@
+@import '../../style/mixins.scss';
+
+.home {
+  width: 100%;
+  max-height: 100%;
+  padding: 150px 0 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 100px;
+
+  .first-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+    font-size: x-large;
+  }
+
+  .magic-signup {
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+
+    .input {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}

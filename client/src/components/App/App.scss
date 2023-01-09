@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+.App,
+.loader {
+  height: 100vh;
+  width: 100vw;
+}
+
+.loader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sans-serif {
+  font-family: sans-serif;
+}
